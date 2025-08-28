@@ -4,7 +4,7 @@ from lightrag.llm.llama_index_impl import (
     llama_index_complete_if_cache,
     llama_index_embed,
 )
-from lightrag.utils import EmbeddingFunc
+from lightrag.utilities import EmbeddingFunc
 from llama_index.llms.litellm import LiteLLM
 from llama_index.embeddings.litellm import LiteLLMEmbedding
 import asyncio

@@ -7,7 +7,7 @@ from dataclasses import dataclass
 import numpy as np
 import time
 
-from lightrag.utils import (
+from lightrag.utilities import (
     logger,
     compute_mdhash_id,
 )

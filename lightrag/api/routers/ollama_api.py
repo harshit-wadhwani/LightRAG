@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Request
 from pydantic import BaseModel
 from typing import List, Dict, Any, Optional, Type
-from lightrag.utils import logger
+from lightrag.utilities import logger
 import time
 import json
 import re
@@ -10,7 +10,7 @@ from fastapi.responses import StreamingResponse
 import asyncio
 from ascii_colors import trace_exception
 from lightrag import LightRAG, QueryParam
-from lightrag.utils import TiktokenTokenizer
+from lightrag.utilities import TiktokenTokenizer
 from lightrag.api.utils_api import get_combined_auth_dependency
 from fastapi import Depends
 

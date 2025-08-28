@@ -28,7 +28,7 @@ import numpy as np
 
 from lightrag import LightRAG, QueryParam
 from lightrag.llm.openai import openai_complete_if_cache, openai_embed
-from lightrag.utils import EmbeddingFunc, setup_logger
+from lightrag.utilities import EmbeddingFunc, setup_logger
 from lightrag.kg.shared_storage import initialize_pipeline_status
 
 from functools import partial

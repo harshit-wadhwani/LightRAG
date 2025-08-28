@@ -1,7 +1,7 @@
 import sys
 import re
 import json
-from ..utils import verbose_debug
+from ..utilities import verbose_debug
 
 if sys.version_info < (3, 9):
     pass
@@ -25,7 +25,7 @@ from tenacity import (
     retry_if_exception_type,
 )
 
-from lightrag.utils import (
+from lightrag.utilities import (
     wrap_embedding_func_with_attrs,
     logger,
 )

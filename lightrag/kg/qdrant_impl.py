@@ -5,7 +5,7 @@ from dataclasses import dataclass
 import numpy as np
 import hashlib
 import uuid
-from ..utils import logger
+from ..utilities import logger
 from ..base import BaseVectorStorage
 from ..kg.shared_storage import get_data_init_lock, get_storage_lock
 import configparser

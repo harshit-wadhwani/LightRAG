@@ -9,7 +9,7 @@ import json_repair
 from typing import Any, AsyncIterator
 from collections import Counter, defaultdict
 
-from .utils import (
+from .utilities import (
     logger,
     clean_str,
     compute_mdhash_id,

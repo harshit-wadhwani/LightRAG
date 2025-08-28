@@ -9,7 +9,7 @@ from tenacity import (
     wait_exponential,
     retry_if_exception_type,
 )
-from .utils import logger
+from .utilities import logger
 
 from dotenv import load_dotenv
 

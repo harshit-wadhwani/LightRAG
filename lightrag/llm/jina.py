@@ -16,7 +16,7 @@ from tenacity import (
     wait_exponential,
     retry_if_exception_type,
 )
-from lightrag.utils import wrap_embedding_func_with_attrs, logger
+from lightrag.utilities import wrap_embedding_func_with_attrs, logger
 
 
 async def fetch_data(url, headers, data):

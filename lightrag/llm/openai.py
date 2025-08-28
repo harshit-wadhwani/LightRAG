@@ -1,4 +1,4 @@
-from ..utils import verbose_debug, VERBOSE_DEBUG
+from ..utilities import verbose_debug, VERBOSE_DEBUG
 import sys
 import os
 import logging
@@ -25,7 +25,7 @@ from tenacity import (
     wait_exponential,
     retry_if_exception_type,
 )
-from lightrag.utils import (
+from lightrag.utilities import (
     wrap_embedding_func_with_attrs,
     safe_unicode_decode,
     logger,

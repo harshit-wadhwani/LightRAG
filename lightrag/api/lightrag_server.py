@@ -30,11 +30,11 @@ from .config import (
     update_uvicorn_mode_config,
     get_default_host,
 )
-from lightrag.utils import get_env_value
+from lightrag.utilities import get_env_value
 from lightrag import LightRAG, __version__ as core_version
 from lightrag.api import __api_version__
 from lightrag.types import GPTKeywordExtractionFormat
-from lightrag.utils import EmbeddingFunc
+from lightrag.utilities import EmbeddingFunc
 from lightrag.constants import (
     DEFAULT_LOG_MAX_BYTES,
     DEFAULT_LOG_BACKUP_COUNT,
@@ -49,7 +49,7 @@ from lightrag.api.routers.query_routes import create_query_routes
 from lightrag.api.routers.graph_routes import create_graph_routes
 from lightrag.api.routers.ollama_api import OllamaAPI
 
-from lightrag.utils import logger, set_verbose_debug
+from lightrag.utilities import logger, set_verbose_debug
 from lightrag.kg.shared_storage import (
     get_namespace_data,
     get_pipeline_status_lock,

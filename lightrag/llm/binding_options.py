@@ -11,7 +11,7 @@ import json
 from dataclasses import asdict, dataclass, field
 from typing import Any, ClassVar, List
 
-from lightrag.utils import get_env_value
+from lightrag.utilities import get_env_value
 from lightrag.constants import DEFAULT_TEMPERATURE
 
 

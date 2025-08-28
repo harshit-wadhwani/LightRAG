@@ -1,7 +1,7 @@
 import re
 import json
 from lightrag import LightRAG, QueryParam
-from lightrag.utils import always_get_an_event_loop
+from lightrag.utilities import always_get_an_event_loop
 
 
 def extract_queries(file_path):

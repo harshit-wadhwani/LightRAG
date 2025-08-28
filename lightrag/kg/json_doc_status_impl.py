@@ -7,7 +7,7 @@ from lightrag.base import (
     DocStatus,
     DocStatusStorage,
 )
-from lightrag.utils import (
+from lightrag.utilities import (
     load_json,
     logger,
     write_json,

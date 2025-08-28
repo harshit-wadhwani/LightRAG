@@ -5,7 +5,7 @@ from typing import Any, final
 import numpy as np
 
 from lightrag.base import BaseVectorStorage
-from lightrag.utils import logger
+from lightrag.utilities import logger
 import pipmaster as pm
 
 if not pm.is_installed("chromadb"):

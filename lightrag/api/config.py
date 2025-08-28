@@ -6,7 +6,7 @@ import os
 import argparse
 import logging
 from dotenv import load_dotenv
-from lightrag.utils import get_env_value
+from lightrag.utilities import get_env_value
 from lightrag.llm.binding_options import (
     OllamaEmbeddingOptions,
     OllamaLLMOptions,

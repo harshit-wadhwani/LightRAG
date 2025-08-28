@@ -27,7 +27,7 @@ def direct_log(message, enable_output: bool = False, level: str = "DEBUG"):
 
     # Get the current logger level from the lightrag logger
     try:
-        from lightrag.utils import logger
+        from lightrag.utilities import logger
 
         current_level = logger.getEffectiveLevel()
     except ImportError:

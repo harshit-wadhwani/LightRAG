@@ -13,7 +13,7 @@ from tenacity import (
 )
 
 import logging
-from ..utils import logger
+from ..utilities import logger
 from ..base import BaseGraphStorage
 from ..types import KnowledgeGraph, KnowledgeGraphNode, KnowledgeGraphEdge
 from ..constants import GRAPH_FIELD_SEP

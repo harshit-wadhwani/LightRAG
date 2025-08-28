@@ -3,7 +3,7 @@ This module contains all document-related routes for the LightRAG API.
 """
 
 import asyncio
-from lightrag.utils import logger, get_pinyin_sort_key
+from lightrag.utilities import logger, get_pinyin_sort_key
 import aiofiles
 import shutil
 import traceback
@@ -23,7 +23,7 @@ from pydantic import BaseModel, Field, field_validator
 
 from lightrag import LightRAG
 from lightrag.base import DeletionResult, DocProcessingStatus, DocStatus
-from lightrag.utils import generate_track_id
+from lightrag.utilities import generate_track_id
 from lightrag.api.utils_api import get_combined_auth_dependency
 from ..config import global_args
 

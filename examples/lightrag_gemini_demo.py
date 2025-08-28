@@ -5,7 +5,7 @@ import numpy as np
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
-from lightrag.utils import EmbeddingFunc
+from lightrag.utilities import EmbeddingFunc
 from lightrag import LightRAG, QueryParam
 from sentence_transformers import SentenceTransformer
 from lightrag.kg.shared_storage import initialize_pipeline_status

@@ -21,7 +21,7 @@ from tenacity import (
     retry_if_exception_type,
 )
 
-from lightrag.utils import (
+from lightrag.utilities import (
     wrap_embedding_func_with_attrs,
     safe_unicode_decode,
 )

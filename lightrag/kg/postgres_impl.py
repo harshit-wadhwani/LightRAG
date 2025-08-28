@@ -29,7 +29,7 @@ from ..base import (
     DocStatusStorage,
 )
 from ..namespace import NameSpace, is_namespace
-from ..utils import logger
+from ..utilities import logger
 from ..constants import GRAPH_FIELD_SEP
 from ..kg.shared_storage import get_data_init_lock, get_graph_db_lock, get_storage_lock
 

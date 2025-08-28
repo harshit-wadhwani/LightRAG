@@ -7,12 +7,12 @@ import nest_asyncio
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
-from lightrag.utils import EmbeddingFunc
+from lightrag.utilities import EmbeddingFunc
 from lightrag import LightRAG, QueryParam
 from lightrag.kg.shared_storage import initialize_pipeline_status
 from lightrag.llm.siliconcloud import siliconcloud_embedding
-from lightrag.utils import setup_logger
-from lightrag.utils import TokenTracker
+from lightrag.utilities import setup_logger
+from lightrag.utilities import TokenTracker
 
 setup_logger("lightrag", level="DEBUG")
 

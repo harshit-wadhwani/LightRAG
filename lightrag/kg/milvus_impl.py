@@ -3,7 +3,7 @@ import os
 from typing import Any, final
 from dataclasses import dataclass
 import numpy as np
-from lightrag.utils import logger, compute_mdhash_id
+from lightrag.utilities import logger, compute_mdhash_id
 from ..base import BaseVectorStorage
 from ..constants import DEFAULT_MAX_FILE_PATH_LENGTH
 from ..kg.shared_storage import get_data_init_lock, get_storage_lock

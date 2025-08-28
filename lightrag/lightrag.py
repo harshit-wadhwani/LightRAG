@@ -42,7 +42,7 @@ from lightrag.constants import (
     DEFAULT_ENTITY_TYPES,
     DEFAULT_SUMMARY_LANGUAGE,
 )
-from lightrag.utils import get_env_value
+from lightrag.utilities import get_env_value
 
 from lightrag.kg import (
     STORAGES,
@@ -80,7 +80,7 @@ from .operate import (
     _rebuild_knowledge_from_chunks,
 )
 from .constants import GRAPH_FIELD_SEP
-from .utils import (
+from .utilities import (
     Tokenizer,
     TiktokenTokenizer,
     EmbeddingFunc,
@@ -2887,7 +2887,7 @@ class LightRAG:
                 - table: Print formatted tables to console
             include_vector_data: Whether to include data from the vector database.
         """
-        from .utils import aexport_data as utils_aexport_data
+        from .utilities import aexport_data as utils_aexport_data
 
         await utils_aexport_data(
             self.chunk_entity_relation_graph,

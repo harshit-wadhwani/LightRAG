@@ -2,7 +2,7 @@ import os
 
 from lightrag import LightRAG, QueryParam
 from lightrag.llm.hf import hf_model_complete, hf_embed
-from lightrag.utils import EmbeddingFunc
+from lightrag.utilities import EmbeddingFunc
 from transformers import AutoModel, AutoTokenizer
 from lightrag.kg.shared_storage import initialize_pipeline_status
 

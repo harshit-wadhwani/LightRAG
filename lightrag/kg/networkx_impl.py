@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from typing import final
 
 from lightrag.types import KnowledgeGraph, KnowledgeGraphNode, KnowledgeGraphEdge
-from lightrag.utils import logger
+from lightrag.utilities import logger
 from lightrag.base import BaseGraphStorage
 from lightrag.constants import GRAPH_FIELD_SEP
 import networkx as nx

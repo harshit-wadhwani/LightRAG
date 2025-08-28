@@ -2,7 +2,7 @@ import os
 import asyncio
 from lightrag import LightRAG, QueryParam
 from lightrag.llm.ollama import ollama_embed, openai_complete_if_cache
-from lightrag.utils import EmbeddingFunc
+from lightrag.utilities import EmbeddingFunc
 from lightrag.kg.shared_storage import initialize_pipeline_status
 
 # WorkingDir

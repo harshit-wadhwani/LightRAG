@@ -13,7 +13,7 @@ if not pm.is_installed("redis"):
 # aioredis is a depricated library, replaced with redis
 from redis.asyncio import Redis, ConnectionPool  # type: ignore
 from redis.exceptions import RedisError, ConnectionError, TimeoutError  # type: ignore
-from lightrag.utils import logger, get_pinyin_sort_key
+from lightrag.utilities import logger, get_pinyin_sort_key
 
 from lightrag.base import (
     BaseKVStorage,
@@ -474,7 +474,7 @@ class RedisKVStorage(BaseKVStorage):
 
         Early exit if any flattened key is found (indicating migration already done).
         """
-        from lightrag.utils import generate_cache_key
+        from lightrag.utilities import generate_cache_key
 
         async with self._get_redis_connection() as redis:
             # Get all keys for this namespace

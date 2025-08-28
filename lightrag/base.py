@@ -12,7 +12,7 @@ from typing import (
     TypeVar,
     Callable,
 )
-from .utils import EmbeddingFunc
+from .utilities import EmbeddingFunc
 from .types import KnowledgeGraph
 from .constants import (
     GRAPH_FIELD_SEP,

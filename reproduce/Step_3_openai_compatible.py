@@ -3,7 +3,7 @@ import re
 import json
 from lightrag import LightRAG, QueryParam
 from lightrag.llm.openai import openai_complete_if_cache, openai_embed
-from lightrag.utils import EmbeddingFunc, always_get_an_event_loop
+from lightrag.utilities import EmbeddingFunc, always_get_an_event_loop
 import numpy as np
 
 

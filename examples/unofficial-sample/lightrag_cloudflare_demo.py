@@ -4,7 +4,7 @@ import inspect
 import logging
 import logging.config
 from lightrag import LightRAG, QueryParam
-from lightrag.utils import EmbeddingFunc, logger, set_verbose_debug
+from lightrag.utilities import EmbeddingFunc, logger, set_verbose_debug
 from lightrag.kg.shared_storage import initialize_pipeline_status
 
 import requests

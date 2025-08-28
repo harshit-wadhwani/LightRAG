@@ -7,12 +7,12 @@ from lightrag.llm import (
     openai_complete_if_cache,
     nvidia_openai_embed,
 )
-from lightrag.utils import EmbeddingFunc
+from lightrag.utilities import EmbeddingFunc
 import numpy as np
 from lightrag.kg.shared_storage import initialize_pipeline_status
 
 # for custom llm_model_func
-from lightrag.utils import locate_json_string_body_from_string
+from lightrag.utilities import locate_json_string_body_from_string
 
 nest_asyncio.apply()
 

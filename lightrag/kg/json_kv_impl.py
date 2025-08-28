@@ -5,7 +5,7 @@ from typing import Any, final
 from lightrag.base import (
     BaseKVStorage,
 )
-from lightrag.utils import (
+from lightrag.utilities import (
     load_json,
     logger,
     write_json,
@@ -237,7 +237,7 @@ class JsonKVStorage(BaseKVStorage):
         Returns:
             Migrated data dictionary with flattened cache keys
         """
-        from lightrag.utils import generate_cache_key
+        from lightrag.utilities import generate_cache_key
 
         # Early return if data is empty
         if not data:

@@ -28,7 +28,7 @@ from lightrag.api import __api_version__
 
 import numpy as np
 from typing import Union
-from lightrag.utils import logger
+from lightrag.utilities import logger
 
 
 @retry(
